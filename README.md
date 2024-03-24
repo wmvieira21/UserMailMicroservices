@@ -17,4 +17,5 @@ The emailSenderService microservice is responsible for listening to the messages
 
 
 ## Demonstration
+![Design sem nome](https://github.com/wmvieira21/UserMailMicroservices/assets/90009567/87f35f8c-46b3-4957-b766-7ad49d5eec3b)
 ![Design sem nome](https://github.com/wmvieira21/UserMailMicroservices/assets/90009567/1780398b-2624-4622-830e-6d270c573144)
