@@ -1,0 +1,574 @@
+2024-03-18T16:31:01,876 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-03-18T16:31:01,914 INFO  com.microservice.mail.email.EmailApplication - Starting EmailApplication using Java 21.0.2 with PID 8108 (C:\Users\willi\Desktop\Projects\email\target\classes started by willi in C:\Users\willi\Desktop\Projects\email)
+2024-03-18T16:31:01,917 DEBUG com.microservice.mail.email.EmailApplication - Running with Spring Boot v3.2.3, Spring v6.1.4
+2024-03-18T16:31:01,918 INFO  com.microservice.mail.email.EmailApplication - No active profile set, falling back to 1 default profile: "default"
+2024-03-18T16:31:02,579 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-18T16:31:02,618 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interface.
+2024-03-18T16:31:03,071 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-03-18T16:31:03,083 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-18T16:31:03,085 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-03-18T16:31:03,085 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-18T16:31:03,124 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-03-18T16:31:03,125 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1166 ms
+2024-03-18T16:31:03,283 INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-18T16:31:03,347 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-18T16:31:03,373 INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-03-18T16:31:03,547 INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-18T16:31:03,571 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-03-18T16:31:03,711 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5a51336a
+2024-03-18T16:31:03,713 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-03-18T16:31:04,398 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-18T16:31:04,433 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-18T16:31:04,780 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-18T16:31:05,325 INFO  com.rabbitmq.stream.impl.StreamEnvironment - Connecting to localhost with guest user, assuming development environment
+2024-03-18T16:31:05,325 INFO  com.rabbitmq.stream.impl.StreamEnvironment - Using address resolver to always connect to localhost
+2024-03-18T16:31:05,473 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-03-18T16:31:05,483 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2024-03-18T16:31:05,486 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [toad.rmq.cloudamqp.com:5671]
+2024-03-18T16:31:06,445 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#76c2d002:0/SimpleConnection@24489d12 [delegate=amqp://sdpgrlzk@44.193.160.47:5671/sdpgrlzk, localPort=52869]
+2024-03-18T16:31:07,318 INFO  com.microservice.mail.email.EmailApplication - Started EmailApplication in 5.769 seconds (process running for 6.35)
+2024-03-18T16:31:30,054 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-18T16:31:30,055 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-03-18T16:31:30,056 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-03-18T16:31:30,080 TRACE com.microservice.mail.email.controllers.EmailController - trace
+2024-03-18T16:31:30,080 DEBUG com.microservice.mail.email.controllers.EmailController - degub
+2024-03-18T16:31:30,080 INFO  com.microservice.mail.email.controllers.EmailController - info
+2024-03-18T16:31:30,080 WARN  com.microservice.mail.email.controllers.EmailController - warn
+2024-03-18T16:31:30,080 ERROR com.microservice.mail.email.controllers.EmailController - error
+2024-03-18T16:31:30,080 FATAL com.microservice.mail.email.controllers.EmailController - fatal
+2024-03-18T16:36:00,698 INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2024-03-18T16:36:01,031 INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2024-03-18T16:36:02,303 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-18T16:36:02,305 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-03-18T16:36:02,319 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-03-18T16:52:31,597 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-03-18T16:52:31,629 INFO  com.microservice.mail.email.EmailApplication - Starting EmailApplication using Java 21.0.2 with PID 13484 (C:\Users\willi\Desktop\Projects\email\target\classes started by willi in C:\Users\willi\Desktop\Projects\email)
+2024-03-18T16:52:31,631 DEBUG com.microservice.mail.email.EmailApplication - Running with Spring Boot v3.2.3, Spring v6.1.4
+2024-03-18T16:52:31,632 INFO  com.microservice.mail.email.EmailApplication - No active profile set, falling back to 1 default profile: "default"
+2024-03-18T16:52:32,473 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-18T16:52:32,509 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interface.
+2024-03-18T16:52:33,008 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-03-18T16:52:33,020 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-18T16:52:33,022 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-03-18T16:52:33,022 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-18T16:52:33,068 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-03-18T16:52:33,070 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1403 ms
+2024-03-18T16:52:33,218 INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-18T16:52:33,280 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-18T16:52:33,304 INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-03-18T16:52:33,468 INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-18T16:52:33,490 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-03-18T16:52:33,633 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1d1cfe4
+2024-03-18T16:52:33,634 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-03-18T16:52:34,304 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-18T16:52:34,335 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-18T16:52:34,585 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-18T16:52:35,051 INFO  com.rabbitmq.stream.impl.StreamEnvironment - Connecting to localhost with guest user, assuming development environment
+2024-03-18T16:52:35,051 INFO  com.rabbitmq.stream.impl.StreamEnvironment - Using address resolver to always connect to localhost
+2024-03-18T16:52:35,162 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-03-18T16:52:35,170 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2024-03-18T16:52:35,173 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [toad.rmq.cloudamqp.com:5671]
+2024-03-18T16:52:36,251 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#1d77d9c6:0/SimpleConnection@11564455 [delegate=amqp://sdpgrlzk@44.193.160.47:5671/sdpgrlzk, localPort=54028]
+2024-03-18T16:52:37,228 INFO  com.microservice.mail.email.EmailApplication - Started EmailApplication in 5.926 seconds (process running for 6.518)
+2024-03-18T17:26:09,680 WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occurred (Exception message: Connection reset)
+2024-03-18T17:39:25,868 INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Restarting Consumer@71eb4ea4: tags=[[amq.ctag-M0lMFdjDNZy1xRPewRJmKA]], channel=Cached Rabbit Channel: AMQChannel(amqp://sdpgrlzk@44.193.160.47:5671/sdpgrlzk,1), conn: Proxy@3d339541 Shared Rabbit Connection: SimpleConnection@11564455 [delegate=amqp://sdpgrlzk@44.193.160.47:5671/sdpgrlzk, localPort=54028], acknowledgeMode=AUTO local queue size=0
+2024-03-18T17:39:25,878 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [toad.rmq.cloudamqp.com:5671]
+2024-03-18T17:39:25,882 ERROR org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpIOException: java.net.UnknownHostException: Este host não é conhecido (toad.rmq.cloudamqp.com)
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:70) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:606) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:727) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createBareChannel(CachingConnectionFactory.java:672) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.getCachedChannelProxy(CachingConnectionFactory.java:645) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.getChannel(CachingConnectionFactory.java:534) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory$ChannelCachingConnectionProxy.createChannel(CachingConnectionFactory.java:1478) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2255) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2222) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2202) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueInfo(RabbitAdmin.java:467) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:451) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1960) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1924) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1480) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1322) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.net.UnknownHostException: Este host não é conhecido (toad.rmq.cloudamqp.com)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[?:?]
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:52) ~[?:?]
+	at java.base/java.net.InetAddress$PlatformResolver.lookupByName(InetAddress.java:1211) ~[?:?]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1828) ~[?:?]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:1139) ~[?:?]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1818) ~[?:?]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1688) ~[?:?]
+	at com.rabbitmq.client.DnsRecordIpAddressResolver.resolveIpAddresses(DnsRecordIpAddressResolver.java:83) ~[amqp-client-5.19.0.jar:5.19.0]
+	at com.rabbitmq.client.DnsRecordIpAddressResolver.getAddresses(DnsRecordIpAddressResolver.java:73) ~[amqp-client-5.19.0.jar:5.19.0]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1245) ~[amqp-client-5.19.0.jar:5.19.0]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1198) ~[amqp-client-5.19.0.jar:5.19.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:652) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:621) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:568) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	... 15 more
+2024-03-18T17:39:25,888 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [toad.rmq.cloudamqp.com:5671]
+2024-03-18T17:39:31,053 INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Restarting Consumer@55cb39e1: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-03-18T17:39:31,055 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [toad.rmq.cloudamqp.com:5671]
+2024-03-18T17:39:31,055 ERROR org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+2024-03-18T17:39:31,055 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [toad.rmq.cloudamqp.com:5671]
+2024-03-18T17:39:36,153 INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Restarting Consumer@15a3f4ba: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-03-18T17:39:36,154 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [toad.rmq.cloudamqp.com:5671]
+2024-03-18T17:39:37,095 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#1d77d9c6:5/SimpleConnection@5253195 [delegate=amqp://sdpgrlzk@44.193.160.47:5671/sdpgrlzk, localPort=55672]
+2024-03-18T17:39:49,625 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m45s336ms305µs100ns).
+2024-03-18T18:02:39,833 INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2024-03-18T18:02:40,514 INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2024-03-18T18:02:41,802 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-18T18:02:41,804 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-03-18T18:02:41,808 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-03-20T02:08:07,876 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-03-20T02:08:07,917 INFO  com.microservice.mail.email.EmailApplication - Starting EmailApplication using Java 21.0.2 with PID 15424 (C:\Users\willi\Desktop\Projects\email\target\classes started by willi in C:\Users\willi\Desktop\Projects\email)
+2024-03-20T02:08:07,920 DEBUG com.microservice.mail.email.EmailApplication - Running with Spring Boot v3.2.3, Spring v6.1.4
+2024-03-20T02:08:07,922 INFO  com.microservice.mail.email.EmailApplication - No active profile set, falling back to 1 default profile: "default"
+2024-03-20T02:08:08,679 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-20T02:08:08,723 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interface.
+2024-03-20T02:08:09,306 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-03-20T02:08:09,317 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-20T02:08:09,319 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-03-20T02:08:09,319 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-20T02:08:09,366 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-03-20T02:08:09,367 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1402 ms
+2024-03-20T02:08:09,560 INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-20T02:08:09,627 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-20T02:08:09,654 INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-03-20T02:08:09,847 INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-20T02:08:09,876 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-03-20T02:08:10,033 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2b1a901d
+2024-03-20T02:08:10,035 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-03-20T02:08:10,829 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-20T02:08:10,893 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-20T02:08:11,218 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-20T02:08:11,824 INFO  com.rabbitmq.stream.impl.StreamEnvironment - Connecting to localhost with guest user, assuming development environment
+2024-03-20T02:08:11,824 INFO  com.rabbitmq.stream.impl.StreamEnvironment - Using address resolver to always connect to localhost
+2024-03-20T02:08:11,980 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-03-20T02:08:11,991 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2024-03-20T02:08:11,995 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [toad.rmq.cloudamqp.com:5671]
+2024-03-20T02:08:13,209 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#55d98bbb:0/SimpleConnection@322c70bc [delegate=amqp://sdpgrlzk@44.193.160.47:5671/sdpgrlzk, localPort=51477]
+2024-03-20T02:08:14,130 INFO  com.microservice.mail.email.EmailApplication - Started EmailApplication in 6.632 seconds (process running for 7.245)
+2024-03-20T02:08:24,514 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-20T02:08:24,514 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-03-20T02:08:24,515 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-03-20T02:08:54,907 TRACE com.microservice.mail.email.controllers.EmailController - trace
+2024-03-20T02:08:54,908 DEBUG com.microservice.mail.email.controllers.EmailController - degub
+2024-03-20T02:08:54,908 INFO  com.microservice.mail.email.controllers.EmailController - info
+2024-03-20T02:08:54,908 WARN  com.microservice.mail.email.controllers.EmailController - warn
+2024-03-20T02:08:54,908 ERROR com.microservice.mail.email.controllers.EmailController - error
+2024-03-20T02:08:54,909 FATAL com.microservice.mail.email.controllers.EmailController - fatal
+2024-03-24T13:13:52,713 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-03-24T13:13:52,748 INFO  com.microservice.mail.email.EmailApplication - Starting EmailApplication using Java 21.0.2 with PID 14844 (C:\Users\willi\Desktop\Projects\UserEmailMicroservices\email\target\classes started by willi in C:\Users\willi\Desktop\Projects\UserEmailMicroservices\email)
+2024-03-24T13:13:52,750 DEBUG com.microservice.mail.email.EmailApplication - Running with Spring Boot v3.2.3, Spring v6.1.4
+2024-03-24T13:13:52,751 INFO  com.microservice.mail.email.EmailApplication - No active profile set, falling back to 1 default profile: "default"
+2024-03-24T13:13:53,374 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-24T13:13:53,413 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interface.
+2024-03-24T13:13:53,905 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-03-24T13:13:53,918 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-24T13:13:53,921 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-03-24T13:13:53,922 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-24T13:13:53,969 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-03-24T13:13:53,970 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1179 ms
+2024-03-24T13:13:54,132 INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-24T13:13:54,195 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-24T13:13:54,221 INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-03-24T13:13:54,394 INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-24T13:13:54,428 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-03-24T13:13:54,609 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@298263fa
+2024-03-24T13:13:54,611 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-03-24T13:13:55,353 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-24T13:13:55,428 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-24T13:13:55,723 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-24T13:13:56,452 INFO  com.rabbitmq.stream.impl.StreamEnvironment - Connecting to localhost with guest user, assuming development environment
+2024-03-24T13:13:56,453 INFO  com.rabbitmq.stream.impl.StreamEnvironment - Using address resolver to always connect to localhost
+2024-03-24T13:13:56,582 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-03-24T13:13:56,595 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2024-03-24T13:13:56,601 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [toad.rmq.cloudamqp.com:5671]
+2024-03-24T13:13:57,757 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#6d7d0946:0/SimpleConnection@33a0b857 [delegate=amqp://sdpgrlzk@44.193.160.47:5671/sdpgrlzk, localPort=52344]
+2024-03-24T13:13:58,637 INFO  com.microservice.mail.email.EmailApplication - Started EmailApplication in 6.234 seconds (process running for 6.751)
+2024-03-24T13:14:17,383 WARN  org.springframework.amqp.rabbit.listener.ConditionalRejectingErrorHandler - Execution of Rabbit message listener failed.
+org.springframework.amqp.rabbit.support.ListenerExecutionFailedException: Failed to convert message
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:158) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1682) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.actualInvokeListener(AbstractMessageListenerContainer.java:1604) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:1592) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:1583) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListenerAndHandleException(AbstractMessageListenerContainer.java:1528) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.lambda$executeListener$8(AbstractMessageListenerContainer.java:1506) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at io.micrometer.observation.Observation.observe(Observation.java:499) ~[micrometer-observation-1.12.3.jar:1.12.3]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1506) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doReceiveAndExecute(SimpleMessageListenerContainer.java:1084) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.receiveAndExecute(SimpleMessageListenerContainer.java:1020) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.mainLoop(SimpleMessageListenerContainer.java:1422) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1324) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: org.springframework.amqp.support.converter.MessageConversionException: Failed to convert Message content
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.doFromMessage(AbstractJackson2MessageConverter.java:367) ~[spring-amqp-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:321) ~[spring-amqp-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:304) ~[spring-amqp-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:342) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter$MessagingMessageConverterAdapter.extractPayload(MessagingMessageListenerAdapter.java:385) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.support.converter.MessagingMessageConverter.fromMessage(MessagingMessageConverter.java:132) ~[spring-amqp-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.toMessagingMessage(MessagingMessageListenerAdapter.java:258) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:148) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	... 13 more
+Caused by: com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'dgfgdfgdfg': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"dgfgdfgdfg"; line: 1, column: 11]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2477) ~[jackson-core-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:760) ~[jackson-core-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._reportInvalidToken(ReaderBasedJsonParser.java:3041) ~[jackson-core-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._handleOddValue(ReaderBasedJsonParser.java:2082) ~[jackson-core-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:808) ~[jackson-core-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4912) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4818) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3772) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.convertBytesToObject(AbstractJackson2MessageConverter.java:428) ~[spring-amqp-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.convertContent(AbstractJackson2MessageConverter.java:395) ~[spring-amqp-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.doFromMessage(AbstractJackson2MessageConverter.java:364) ~[spring-amqp-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:321) ~[spring-amqp-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:304) ~[spring-amqp-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:342) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter$MessagingMessageConverterAdapter.extractPayload(MessagingMessageListenerAdapter.java:385) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.support.converter.MessagingMessageConverter.fromMessage(MessagingMessageConverter.java:132) ~[spring-amqp-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.toMessagingMessage(MessagingMessageListenerAdapter.java:258) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:148) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	... 13 more
+2024-03-24T13:14:17,397 WARN  org.springframework.amqp.rabbit.listener.ConditionalRejectingErrorHandler$DefaultExceptionStrategy - Fatal message conversion error; message rejected; it will be dropped or routed to a dead letter exchange, if so configured: (Body:'[B@398f2931(byte[10])' MessageProperties [headers={}, contentLength=0, receivedDeliveryMode=NON_PERSISTENT, redelivered=false, receivedExchange=, receivedRoutingKey=ms.email, deliveryTag=1, consumerTag=amq.ctag-Knl7htH-e3k1kNMk4qQ0kQ, consumerQueue=ms.email])
+2024-03-24T13:14:17,398 ERROR org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Execution of Rabbit message listener failed, and the error handler threw an exception
+org.springframework.amqp.AmqpRejectAndDontRequeueException: Error Handler converted exception to fatal
+	at org.springframework.amqp.rabbit.listener.ConditionalRejectingErrorHandler.handleError(ConditionalRejectingErrorHandler.java:147) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeErrorHandler(AbstractMessageListenerContainer.java:1475) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.handleListenerException(AbstractMessageListenerContainer.java:1768) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListenerAndHandleException(AbstractMessageListenerContainer.java:1549) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.lambda$executeListener$8(AbstractMessageListenerContainer.java:1506) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at io.micrometer.observation.Observation.observe(Observation.java:499) ~[micrometer-observation-1.12.3.jar:1.12.3]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1506) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doReceiveAndExecute(SimpleMessageListenerContainer.java:1084) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.receiveAndExecute(SimpleMessageListenerContainer.java:1020) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.mainLoop(SimpleMessageListenerContainer.java:1422) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1324) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: org.springframework.amqp.rabbit.support.ListenerExecutionFailedException: Failed to convert message
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:158) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1682) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.actualInvokeListener(AbstractMessageListenerContainer.java:1604) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:1592) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:1583) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListenerAndHandleException(AbstractMessageListenerContainer.java:1528) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	... 8 more
+Caused by: org.springframework.amqp.support.converter.MessageConversionException: Failed to convert Message content
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.doFromMessage(AbstractJackson2MessageConverter.java:367) ~[spring-amqp-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:321) ~[spring-amqp-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:304) ~[spring-amqp-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:342) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter$MessagingMessageConverterAdapter.extractPayload(MessagingMessageListenerAdapter.java:385) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.support.converter.MessagingMessageConverter.fromMessage(MessagingMessageConverter.java:132) ~[spring-amqp-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.toMessagingMessage(MessagingMessageListenerAdapter.java:258) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:148) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1682) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.actualInvokeListener(AbstractMessageListenerContainer.java:1604) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:1592) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:1583) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListenerAndHandleException(AbstractMessageListenerContainer.java:1528) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	... 8 more
+Caused by: com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'dgfgdfgdfg': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"dgfgdfgdfg"; line: 1, column: 11]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2477) ~[jackson-core-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:760) ~[jackson-core-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._reportInvalidToken(ReaderBasedJsonParser.java:3041) ~[jackson-core-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._handleOddValue(ReaderBasedJsonParser.java:2082) ~[jackson-core-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:808) ~[jackson-core-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4912) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4818) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3772) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.convertBytesToObject(AbstractJackson2MessageConverter.java:428) ~[spring-amqp-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.convertContent(AbstractJackson2MessageConverter.java:395) ~[spring-amqp-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.doFromMessage(AbstractJackson2MessageConverter.java:364) ~[spring-amqp-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:321) ~[spring-amqp-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:304) ~[spring-amqp-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:342) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter$MessagingMessageConverterAdapter.extractPayload(MessagingMessageListenerAdapter.java:385) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.support.converter.MessagingMessageConverter.fromMessage(MessagingMessageConverter.java:132) ~[spring-amqp-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.toMessagingMessage(MessagingMessageListenerAdapter.java:258) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:148) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1682) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.actualInvokeListener(AbstractMessageListenerContainer.java:1604) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:1592) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:1583) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListenerAndHandleException(AbstractMessageListenerContainer.java:1528) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	... 8 more
+2024-03-24T13:16:34,087 WARN  org.springframework.amqp.rabbit.listener.ConditionalRejectingErrorHandler - Execution of Rabbit message listener failed.
+org.springframework.amqp.rabbit.support.ListenerExecutionFailedException: Failed to convert message
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:158) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1682) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.actualInvokeListener(AbstractMessageListenerContainer.java:1604) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:1592) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:1583) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListenerAndHandleException(AbstractMessageListenerContainer.java:1528) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.lambda$executeListener$8(AbstractMessageListenerContainer.java:1506) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at io.micrometer.observation.Observation.observe(Observation.java:499) ~[micrometer-observation-1.12.3.jar:1.12.3]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1506) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doReceiveAndExecute(SimpleMessageListenerContainer.java:1084) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.receiveAndExecute(SimpleMessageListenerContainer.java:1020) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.mainLoop(SimpleMessageListenerContainer.java:1422) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1324) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: org.springframework.amqp.support.converter.MessageConversionException: Failed to convert Message content
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.doFromMessage(AbstractJackson2MessageConverter.java:367) ~[spring-amqp-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:321) ~[spring-amqp-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:304) ~[spring-amqp-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:342) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter$MessagingMessageConverterAdapter.extractPayload(MessagingMessageListenerAdapter.java:385) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.support.converter.MessagingMessageConverter.fromMessage(MessagingMessageConverter.java:132) ~[spring-amqp-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.toMessagingMessage(MessagingMessageListenerAdapter.java:258) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:148) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	... 13 more
+Caused by: com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot construct instance of `com.microservice.mail.email.dtos.EmailDTO` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('ownerRef')
+ at [Source: (String)""ownerRef": "william",
+"emailFrom": "awaw",
+"emailTo": "asas",
+"subject": "aasas",
+"text" : "asas"
+"; line: 1, column: 1]
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:63) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1739) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1364) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer._deserializeFromString(StdDeserializer.java:311) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromString(BeanDeserializerBase.java:1514) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeOther(BeanDeserializer.java:197) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:187) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4825) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3772) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.convertBytesToObject(AbstractJackson2MessageConverter.java:428) ~[spring-amqp-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.convertContent(AbstractJackson2MessageConverter.java:395) ~[spring-amqp-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.doFromMessage(AbstractJackson2MessageConverter.java:364) ~[spring-amqp-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:321) ~[spring-amqp-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:304) ~[spring-amqp-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:342) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter$MessagingMessageConverterAdapter.extractPayload(MessagingMessageListenerAdapter.java:385) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.support.converter.MessagingMessageConverter.fromMessage(MessagingMessageConverter.java:132) ~[spring-amqp-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.toMessagingMessage(MessagingMessageListenerAdapter.java:258) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:148) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	... 13 more
+2024-03-24T13:16:34,099 WARN  org.springframework.amqp.rabbit.listener.ConditionalRejectingErrorHandler$DefaultExceptionStrategy - Fatal message conversion error; message rejected; it will be dropped or routed to a dead letter exchange, if so configured: (Body:'[B@4f7e1556(byte[104])' MessageProperties [headers={}, contentLength=0, receivedDeliveryMode=NON_PERSISTENT, redelivered=false, receivedExchange=, receivedRoutingKey=ms.email, deliveryTag=3, consumerTag=amq.ctag-Knl7htH-e3k1kNMk4qQ0kQ, consumerQueue=ms.email])
+2024-03-24T13:16:34,100 ERROR org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Execution of Rabbit message listener failed, and the error handler threw an exception
+org.springframework.amqp.AmqpRejectAndDontRequeueException: Error Handler converted exception to fatal
+	at org.springframework.amqp.rabbit.listener.ConditionalRejectingErrorHandler.handleError(ConditionalRejectingErrorHandler.java:147) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeErrorHandler(AbstractMessageListenerContainer.java:1475) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.handleListenerException(AbstractMessageListenerContainer.java:1768) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListenerAndHandleException(AbstractMessageListenerContainer.java:1549) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.lambda$executeListener$8(AbstractMessageListenerContainer.java:1506) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at io.micrometer.observation.Observation.observe(Observation.java:499) ~[micrometer-observation-1.12.3.jar:1.12.3]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1506) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doReceiveAndExecute(SimpleMessageListenerContainer.java:1084) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.receiveAndExecute(SimpleMessageListenerContainer.java:1020) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.mainLoop(SimpleMessageListenerContainer.java:1422) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1324) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: org.springframework.amqp.rabbit.support.ListenerExecutionFailedException: Failed to convert message
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:158) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1682) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.actualInvokeListener(AbstractMessageListenerContainer.java:1604) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:1592) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:1583) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListenerAndHandleException(AbstractMessageListenerContainer.java:1528) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	... 8 more
+Caused by: org.springframework.amqp.support.converter.MessageConversionException: Failed to convert Message content
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.doFromMessage(AbstractJackson2MessageConverter.java:367) ~[spring-amqp-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:321) ~[spring-amqp-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:304) ~[spring-amqp-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:342) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter$MessagingMessageConverterAdapter.extractPayload(MessagingMessageListenerAdapter.java:385) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.support.converter.MessagingMessageConverter.fromMessage(MessagingMessageConverter.java:132) ~[spring-amqp-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.toMessagingMessage(MessagingMessageListenerAdapter.java:258) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:148) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1682) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.actualInvokeListener(AbstractMessageListenerContainer.java:1604) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:1592) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:1583) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListenerAndHandleException(AbstractMessageListenerContainer.java:1528) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	... 8 more
+Caused by: com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot construct instance of `com.microservice.mail.email.dtos.EmailDTO` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('ownerRef')
+ at [Source: (String)""ownerRef": "william",
+"emailFrom": "awaw",
+"emailTo": "asas",
+"subject": "aasas",
+"text" : "asas"
+"; line: 1, column: 1]
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:63) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1739) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1364) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer._deserializeFromString(StdDeserializer.java:311) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromString(BeanDeserializerBase.java:1514) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeOther(BeanDeserializer.java:197) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:187) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4825) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3772) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.convertBytesToObject(AbstractJackson2MessageConverter.java:428) ~[spring-amqp-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.convertContent(AbstractJackson2MessageConverter.java:395) ~[spring-amqp-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.doFromMessage(AbstractJackson2MessageConverter.java:364) ~[spring-amqp-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:321) ~[spring-amqp-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:304) ~[spring-amqp-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:342) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter$MessagingMessageConverterAdapter.extractPayload(MessagingMessageListenerAdapter.java:385) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.support.converter.MessagingMessageConverter.fromMessage(MessagingMessageConverter.java:132) ~[spring-amqp-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.toMessagingMessage(MessagingMessageListenerAdapter.java:258) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:148) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1682) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.actualInvokeListener(AbstractMessageListenerContainer.java:1604) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:1592) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:1583) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListenerAndHandleException(AbstractMessageListenerContainer.java:1528) ~[spring-rabbit-3.1.2.jar:3.1.2]
+	... 8 more
+2024-03-24T13:18:08,407 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-03-24T13:18:08,444 INFO  com.microservice.mail.email.EmailApplication - Starting EmailApplication using Java 21.0.2 with PID 16092 (C:\Users\willi\Desktop\Projects\UserEmailMicroservices\email\target\classes started by willi in C:\Users\willi\Desktop\Projects\UserEmailMicroservices\email)
+2024-03-24T13:18:08,448 DEBUG com.microservice.mail.email.EmailApplication - Running with Spring Boot v3.2.3, Spring v6.1.4
+2024-03-24T13:18:08,449 INFO  com.microservice.mail.email.EmailApplication - No active profile set, falling back to 1 default profile: "default"
+2024-03-24T13:18:09,105 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-24T13:18:09,150 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interface.
+2024-03-24T13:18:09,677 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-03-24T13:18:09,699 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-24T13:18:09,703 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-03-24T13:18:09,704 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-24T13:18:09,754 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-03-24T13:18:09,756 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1270 ms
+2024-03-24T13:18:09,923 INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-24T13:18:10,004 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-24T13:18:10,042 INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-03-24T13:18:10,236 INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-24T13:18:10,268 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-03-24T13:18:10,429 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@298263fa
+2024-03-24T13:18:10,431 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-03-24T13:18:11,191 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-24T13:18:11,227 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-24T13:18:11,568 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-24T13:18:12,066 INFO  com.rabbitmq.stream.impl.StreamEnvironment - Connecting to localhost with guest user, assuming development environment
+2024-03-24T13:18:12,066 INFO  com.rabbitmq.stream.impl.StreamEnvironment - Using address resolver to always connect to localhost
+2024-03-24T13:18:12,238 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-03-24T13:18:12,249 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2024-03-24T13:18:12,253 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [toad.rmq.cloudamqp.com:5671]
+2024-03-24T13:18:13,259 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#6d7d0946:0/SimpleConnection@33a0b857 [delegate=amqp://sdpgrlzk@44.193.160.47:5671/sdpgrlzk, localPort=52617]
+2024-03-24T13:18:14,143 INFO  com.microservice.mail.email.EmailApplication - Started EmailApplication in 6.044 seconds (process running for 6.53)
+2024-03-24T15:33:47,185 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-03-24T15:33:47,233 INFO  com.microservice.mail.email.EmailApplication - Starting EmailApplication using Java 21.0.2 with PID 8116 (C:\Users\willi\Desktop\Projects\UserEmailMicroservices\email\target\classes started by willi in C:\Users\willi\Desktop\Projects\UserEmailMicroservices\email)
+2024-03-24T15:33:47,237 DEBUG com.microservice.mail.email.EmailApplication - Running with Spring Boot v3.2.3, Spring v6.1.4
+2024-03-24T15:33:47,237 INFO  com.microservice.mail.email.EmailApplication - No active profile set, falling back to 1 default profile: "default"
+2024-03-24T15:33:48,227 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-24T15:33:48,276 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40 ms. Found 1 JPA repository interface.
+2024-03-24T15:33:48,850 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-03-24T15:33:48,864 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-24T15:33:48,867 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-03-24T15:33:48,868 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-24T15:33:48,924 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-03-24T15:33:48,925 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1642 ms
+2024-03-24T15:33:49,328 INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-24T15:33:49,549 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-24T15:33:49,627 INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-03-24T15:33:49,880 INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-24T15:33:49,913 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-03-24T15:33:50,108 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5b490d5e
+2024-03-24T15:33:50,110 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-03-24T15:33:50,939 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-24T15:33:50,985 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-24T15:33:51,362 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-24T15:33:52,090 INFO  com.rabbitmq.stream.impl.StreamEnvironment - Connecting to localhost with guest user, assuming development environment
+2024-03-24T15:33:52,091 INFO  com.rabbitmq.stream.impl.StreamEnvironment - Using address resolver to always connect to localhost
+2024-03-24T15:33:52,341 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-03-24T15:33:52,359 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2024-03-24T15:33:52,365 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [toad.rmq.cloudamqp.com:5671]
+2024-03-24T15:33:53,382 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#7fd3197b:0/SimpleConnection@13a8cb4e [delegate=amqp://sdpgrlzk@44.193.160.47:5671/sdpgrlzk, localPort=52126]
+2024-03-24T15:33:54,258 INFO  com.microservice.mail.email.EmailApplication - Started EmailApplication in 7.475 seconds (process running for 8.375)
+2024-03-24T15:40:50,016 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-03-24T15:40:50,054 INFO  com.microservice.mail.email.EmailApplication - Starting EmailApplication using Java 21.0.2 with PID 8672 (C:\Users\willi\Desktop\Projects\UserEmailMicroservices\email\target\classes started by willi in C:\Users\willi\Desktop\Projects\UserEmailMicroservices\email)
+2024-03-24T15:40:50,057 DEBUG com.microservice.mail.email.EmailApplication - Running with Spring Boot v3.2.3, Spring v6.1.4
+2024-03-24T15:40:50,057 INFO  com.microservice.mail.email.EmailApplication - No active profile set, falling back to 1 default profile: "default"
+2024-03-24T15:40:50,772 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-24T15:40:50,816 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interface.
+2024-03-24T15:40:51,290 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-03-24T15:40:51,307 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-24T15:40:51,309 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-03-24T15:40:51,310 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-24T15:40:51,365 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-03-24T15:40:51,367 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1275 ms
+2024-03-24T15:40:51,535 INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-24T15:40:51,585 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-24T15:40:51,621 INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-03-24T15:40:51,799 INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-24T15:40:51,828 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-03-24T15:40:51,973 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6b751cb1
+2024-03-24T15:40:51,975 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-03-24T15:40:52,672 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-24T15:40:52,706 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-24T15:40:53,072 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-24T15:40:53,580 INFO  com.rabbitmq.stream.impl.StreamEnvironment - Connecting to localhost with guest user, assuming development environment
+2024-03-24T15:40:53,581 INFO  com.rabbitmq.stream.impl.StreamEnvironment - Using address resolver to always connect to localhost
+2024-03-24T15:40:53,767 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-03-24T15:40:53,780 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2024-03-24T15:40:53,788 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [toad.rmq.cloudamqp.com:5671]
+2024-03-24T15:40:54,803 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#1df83569:0/SimpleConnection@386b4f7e [delegate=amqp://sdpgrlzk@44.193.160.47:5671/sdpgrlzk, localPort=52807]
+2024-03-24T15:40:55,675 INFO  com.microservice.mail.email.EmailApplication - Started EmailApplication in 6.048 seconds (process running for 6.669)
+2024-03-24T15:43:02,293 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-03-24T15:43:02,350 INFO  com.microservice.mail.email.EmailApplication - Starting EmailApplication using Java 21.0.2 with PID 17312 (C:\Users\willi\Desktop\Projects\UserEmailMicroservices\email\target\classes started by willi in C:\Users\willi\Desktop\Projects\UserEmailMicroservices\email)
+2024-03-24T15:43:02,355 DEBUG com.microservice.mail.email.EmailApplication - Running with Spring Boot v3.2.3, Spring v6.1.4
+2024-03-24T15:43:02,356 INFO  com.microservice.mail.email.EmailApplication - No active profile set, falling back to 1 default profile: "default"
+2024-03-24T15:43:03,244 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-24T15:43:03,286 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 35 ms. Found 1 JPA repository interface.
+2024-03-24T15:43:03,816 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-03-24T15:43:03,831 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-24T15:43:03,833 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-03-24T15:43:03,834 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-24T15:43:03,877 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-03-24T15:43:03,878 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1472 ms
+2024-03-24T15:43:04,056 INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-24T15:43:04,119 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-24T15:43:04,177 INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-03-24T15:43:04,406 INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-24T15:43:04,437 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-03-24T15:43:04,585 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@342723a3
+2024-03-24T15:43:04,588 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-03-24T15:43:05,499 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-24T15:43:05,535 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-24T15:43:05,899 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-24T15:43:06,464 INFO  com.rabbitmq.stream.impl.StreamEnvironment - Connecting to localhost with guest user, assuming development environment
+2024-03-24T15:43:06,464 INFO  com.rabbitmq.stream.impl.StreamEnvironment - Using address resolver to always connect to localhost
+2024-03-24T15:43:06,623 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-03-24T15:43:06,632 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2024-03-24T15:43:06,636 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [toad.rmq.cloudamqp.com:5671]
+2024-03-24T15:43:07,635 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#6202f8bf:0/SimpleConnection@15ec3c0c [delegate=amqp://sdpgrlzk@44.193.160.47:5671/sdpgrlzk, localPort=52933]
+2024-03-24T15:43:08,522 INFO  com.microservice.mail.email.EmailApplication - Started EmailApplication in 6.593 seconds (process running for 7.189)
+2024-03-24T16:34:07,960 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-03-24T16:34:08,023 INFO  com.microservice.mail.email.EmailApplication - Starting EmailApplication using Java 21.0.2 with PID 19408 (C:\Users\willi\Desktop\Projects\UserEmailMicroservices\email\target\classes started by willi in C:\Users\willi\Desktop\Projects\UserEmailMicroservices\email)
+2024-03-24T16:34:08,029 DEBUG com.microservice.mail.email.EmailApplication - Running with Spring Boot v3.2.3, Spring v6.1.4
+2024-03-24T16:34:08,031 INFO  com.microservice.mail.email.EmailApplication - No active profile set, falling back to 1 default profile: "default"
+2024-03-24T16:34:08,761 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-24T16:34:08,816 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44 ms. Found 1 JPA repository interface.
+2024-03-24T16:34:09,397 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-03-24T16:34:09,412 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-24T16:34:09,414 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-03-24T16:34:09,415 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-24T16:34:09,456 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-03-24T16:34:09,457 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1373 ms
+2024-03-24T16:34:09,644 INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-24T16:34:09,724 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-24T16:34:09,780 INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-03-24T16:34:09,981 INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-24T16:34:10,005 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-03-24T16:34:10,166 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@26270b77
+2024-03-24T16:34:10,170 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-03-24T16:34:10,954 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-24T16:34:10,986 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-24T16:34:11,335 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-24T16:34:11,862 INFO  com.rabbitmq.stream.impl.StreamEnvironment - Connecting to localhost with guest user, assuming development environment
+2024-03-24T16:34:11,862 INFO  com.rabbitmq.stream.impl.StreamEnvironment - Using address resolver to always connect to localhost
+2024-03-24T16:34:12,010 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-03-24T16:34:12,023 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2024-03-24T16:34:12,029 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [toad.rmq.cloudamqp.com:5671]
+2024-03-24T16:34:13,063 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#3da12ba4:0/SimpleConnection@3ce60feb [delegate=amqp://sdpgrlzk@44.193.160.47:5671/sdpgrlzk, localPort=56007]
+2024-03-24T16:34:13,950 INFO  com.microservice.mail.email.EmailApplication - Started EmailApplication in 6.562 seconds (process running for 7.501)
+2024-03-24T16:36:57,744 INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2024-03-24T16:36:57,903 INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
