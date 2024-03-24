@@ -1,6 +1,6 @@
 # User registry
 
-Developed two microservices (emailSenderService, userRegistryService) to register and send a welcome email to the new user. 
+I developed two microservices (emailSenderService, and userRegistryService) to register and send a welcome email to the new user. 
 
 Using a message broker (RabbitMQ), the microservice userRegistryService is responsible for yielding an endpoint so that consumers of this API can register new users. The users are  saved in the database "user" and a message to the broker is published in the queue.
 
